@@ -1,0 +1,22 @@
+{
+  "name": "calculator-kata",
+  "version": "1.0.0",
+  "description": "kata from http://osherove.com/tdd-kata-1/",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petevliet/calculator-kata.git"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "petevliet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petevliet/calculator-kata/issues"
+  },
+  "homepage": "https://github.com/petevliet/calculator-kata#readme"
+}
