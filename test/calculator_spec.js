@@ -13,6 +13,10 @@ describe('Calculator', () => {
       expect(add("1")).to.equal(1);
       expect(add("1,2,3,4,5")).to.equal(15);
     });
+
+    it('handles new lines between numbers (instead of commas)', () => {
+      expect(add("1\n2,3")).to.equal(6);
+    });
   });
 
 });
